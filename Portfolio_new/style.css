@@ -1,0 +1,393 @@
+body{
+margin: 0px;
+font-family:Georgia, 'Times New Roman', Times, serif
+}
+header{
+    display: flex;
+    background-color: #5271FF;
+    
+}
+#logo{
+    width: 50px;
+}
+#nav{
+padding: 20px;
+margin: auto;
+
+}
+
+
+
+.flex{
+display: flex;
+}
+
+
+
+
+
+#nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 30px;
+    transition: 1s;
+}
+#nav a:hover{
+text-shadow: 2px 2px 10px  rgb(255, 255, 255);
+font-size: 110%;
+}
+section{
+    margin: 0;
+    
+}
+
+
+
+
+
+
+
+
+#marcos{
+        background-color: rgb(32, 32, 32);
+        color:whitesmoke;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+#nome{
+        font-size: 200%;
+        padding-top: 70px;
+        }
+#nome h1{
+        margin: 0px;
+        }
+#contatos{
+    text-align: center;
+}
+
+.icones{
+    display: flex;
+}
+.icones a{
+   background-color: #5271FF;
+   border-radius: 200px;
+   margin: 20px;
+}
+.icones a img{
+    width: 100px;
+    transition: 1.5s;
+    filter: drop-shadow(1px 1px 5px #222222);
+}
+.icones a img:hover{
+    filter: drop-shadow(1px 1px 5px #d8d8d8);
+}
+
+#info{
+  display:flex;
+  justify-content: center;
+  
+}
+
+
+
+#foto img{
+        width: 100%;      
+        height: auto;
+        display: block;
+        filter: drop-shadow(3px 3px 5px #000000);
+        margin-bottom: 0px;
+    }
+
+#foto{
+    margin-left: 20px;
+    background-color: #ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 25px;
+    margin-top: 26px;
+    width: 220px;
+}
+
+
+
+
+
+#conhecimentos{
+    margin: 0px;
+    color: #272727;
+    background-color: #d9d9d9;
+}
+#conhecimentos h2{
+    margin: 0px;
+    text-shadow:1px 1px 3px #ffffff ;
+}
+#titConhecimentos{
+    font-size: 250%; 
+}
+#itencConhecimento{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#itencConhecimento p{
+    color: #ffffff;
+    background-color: #222222;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 50px;
+    font-size: 250%;
+    text-shadow:1px 1px 5px #000000;
+}
+
+
+#imagensConhecimento img{
+    width: 200px;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+#perfProf{
+background-color: #292929;
+margin: 0px;
+}
+#perfProf h2{
+    margin: 0px;
+    color: #ffffff;
+    font-size: 250%;
+}
+#itensPerfProf{
+    display: flex;
+}
+#fotosPerfProf img{
+    width: 200px;
+    border-radius: 30px;
+}
+#conteudoPerfProf{
+    background-color: #d8d8d8;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 25px;
+    border-style: solid;
+}
+#conteudoPerfProf p{
+font-size: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#formacao{
+    margin: 0px;
+    color: #1a1a1a;
+    background-color: #d9d9d9;
+}
+#formacao h2{
+    margin: 0px;
+    text-shadow:1px 1px 3px #ffffff ;
+}
+#titForm{
+    font-size: 250%; 
+}
+#itensForm{
+    display: flex;
+}
+#fotosForm img{
+    width: 200px;
+    border-radius: 30px;
+}
+#formEM{
+    text-align: center;
+    color: #000000;
+    background-color: #d8d8d8;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 25px;
+    border-style: solid;
+    font-size: 150%;
+    display: flex;
+}
+#formFatec{
+    color: #000000;
+    background-color: #d8d8d8;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 25px;
+    border-style: solid;
+    font-size: 150%;
+    display: flex;
+}
+#formFatec img{
+    margin-right: 15px;
+    width: 200px;
+    border-radius: 30px;
+}
+#formEM img{
+    margin-right: 15px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+#exp{
+    background-color: #222222;
+}
+#exp h2{
+    margin: 0px;
+    color: #ffffff;
+    font-size: 250%;
+}
+#itensExp{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+#dominos{
+    color: #000000;
+    background-color: #d8d8d8;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 25px;
+    border-style: solid;
+    font-size: 150%;
+    display: flex;
+}
+#pref{
+    color: #000000;
+    background-color: #d8d8d8;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 25px;
+    border-style: solid;
+    font-size: 150%;
+    display: flex;
+}
+.fotosExp img{
+    margin: 25px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+
+
+
+#projetos{
+    margin: 0px;
+    color: #1a1a1a;
+    background-color: #d9d9d9;
+}
+#projetos h2{
+    
+    font-size: 250%;
+    margin: 0px;
+    text-shadow:1px 1px 3px #ffffff ;
+}
+#conteudoProj{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#conteudoProj a img{
+    margin: 25px;
+    width: 250px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+#conteudoProj a img:hover{
+    filter: drop-shadow(3px 3px 5px #000000);
+    width: 270px;
+}
+
+
+footer{
+    background-color: #5271FF;
+    text-align: center;
+    display: flex;
+}
+footer h1{
+color: #ffffff;
+margin: 0px;    
+}
+.form{  
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border-radius: 8px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  input {
+    width: 300px;
+    height: 38px;
+    padding: 5px;
+  
+    border-radius: 4px;
+    border: none;
+    outline: 2px solid transparent;
+  
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  input:hover, textarea:hover {
+    outline-color: #41EAD4;
+  }
+  
+  textarea {
+    resize: none;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+  
+    font-family: sans-serif;
+    font-size: 16px;
+  
+    outline: 2px solid transparent;
+  }
+  
+  button {
+    height: 40px;
+  
+    background-color: #011627;
+    border: none;
+    border-radius: 4px;
+  
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #41EAD4;
+  }
+  footer .icones{
+    align-items: center;
+  }
