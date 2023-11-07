@@ -29,3 +29,76 @@ document.getElementById("form").addEventListener("submit", function (event) {
     }
   );
 });
+
+function trocaCon1(){
+  let img = document.getElementById('con1') 
+  img.setAttribute('src', 'images/conhecimento1.gif');
+}
+function voltaCon1(){
+  let img = document.getElementById('con1') 
+  img.setAttribute('src', 'images/conhecimento1.png');
+}
+
+function trocaCon(){
+  let img = document.getElementById('con') 
+  img.setAttribute('src', 'images/Conhecimento.gif');
+}
+function voltaCon(){
+  let img = document.getElementById('con') 
+  img.setAttribute('src', 'images/Conhecimento.png');
+}
+
+//animação icones conhecimento
+function cresceIconeHt(){
+      let icone = document.getElementById('html_icon') 
+      icone.style.width='50px'
+}
+function diminuiIconeHt(){
+  let icone = document.getElementById('html_icon') 
+  icone.style.width='0px'
+}
+
+function cresceIconeJs(){
+  let icone = document.getElementById('js_icon') 
+  icone.style.width='50px'
+}
+function diminuiIconeJs(){
+let icone = document.getElementById('js_icon') 
+icone.style.width='0px'
+}
+
+function cresceIconeCs(){
+  let icone = document.getElementById('css_icon') 
+  icone.style.width='50px'
+}
+function diminuiIconeCs(){
+let icone = document.getElementById('css_icon') 
+icone.style.width='0px'
+}
+
+function cresceIconejV(){
+  let icone = document.getElementById('jV_icon') 
+  icone.style.width='50px'
+}
+function diminuiIconejV(){
+let icone = document.getElementById('jV_icon') 
+icone.style.width='0px'
+}
+
+function cresceIconeoC(){
+  let icone = document.getElementById('oracle_icon') 
+  icone.style.width='50px'
+}
+function diminuiIconeoC(){
+let icone = document.getElementById('oracle_icon') 
+icone.style.width='0px'
+}
+
+function cresceIconemy(){
+  let icone = document.getElementById('my_icon') 
+  icone.style.width='50px'
+}
+function diminuiIconemy(){
+let icone = document.getElementById('my_icon') 
+icone.style.width='0px'
+}

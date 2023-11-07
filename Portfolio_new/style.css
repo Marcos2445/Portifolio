@@ -127,17 +127,57 @@ section{
 #itencConhecimento{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    
     
 }
 #itencConhecimento p{
     color: #ffffff;
-    background-color: #222222;
-    border-radius: 50px;
+    background-color: #1a1a1a;
+    border-radius: 15px 50px;
     padding: 30px;
     margin: 50px;
     font-size: 250%;
     text-shadow:1px 1px 5px #000000;
+    
 }
+#itencConhecimento p:hover{
+    color: #ffffff;
+    background-color:#5271FF;
+    border-radius: 15px 50px;
+    padding: 30px;
+    margin: 50px;
+    font-size: 250%;
+    text-shadow:1px 1px 5px #000000;
+    
+}
+
+#html_icon{
+    width: 0px;
+    transition: 0.5s;
+}
+#js_icon{
+    width: 0px;
+    transition: 0.5s;
+}
+#css_icon{
+    width: 0px;
+    transition: 0.5s;
+}
+#jV_icon{
+    width: 0px;
+    transition: 0.5s;
+}
+#oracle_icon{
+    width: 0px;
+    transition: 0.5s;
+}
+#my_icon{
+    width: 0px;
+    transition: 0.5s;
+}
+
+
 
 
 #imagensConhecimento img{
@@ -154,9 +194,12 @@ section{
 
 
 
+
+
 #perfProf{
 background-color: #292929;
 margin: 0px;
+
 }
 #perfProf h2{
     margin: 0px;
