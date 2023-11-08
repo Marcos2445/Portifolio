@@ -1,3 +1,4 @@
+//form mandar email
 emailjs.init("hNOeBE6ps5_CUaYke");
 
 document.getElementById("form").addEventListener("submit", function (event) {
@@ -14,6 +15,7 @@ document.getElementById("form").addEventListener("submit", function (event) {
       buttonSubmit.style.backgroundColor = "#00FA9A";
 
       setTimeout(() => {
+        document.querySelector("#user_phone").value = "";
         document.querySelector("#user_name").value = "";
         document.querySelector("#user_email").value = "";
         document.querySelector("#message").value = "";
@@ -29,7 +31,22 @@ document.getElementById("form").addEventListener("submit", function (event) {
     }
   );
 });
+//formatação telefone
+const handlePhone = (event) => {
+  let input = event.target
+  input.value = phoneMask(input.value)
+}
 
+const phoneMask = (value) => {
+  if (!value) return ""
+  value = value.replace(/\D/g,'')
+  value = value.replace(/(\d{2})(\d)/,"($1) $2")
+  value = value.replace(/(\d)(\d{4})$/,"$1-$2")
+  return value
+}
+
+
+//matrix rodar quando poem o mouse
 function trocaCon1(){
   let img = document.getElementById('con1') 
   img.setAttribute('src', 'images/conhecimento1.gif');
@@ -61,15 +78,18 @@ function diminuiIconeHt(){
 function cresceIconeJs(){
   let icone = document.getElementById('js_icon') 
   icone.style.width='50px'
+
 }
 function diminuiIconeJs(){
 let icone = document.getElementById('js_icon') 
 icone.style.width='0px'
+
 }
 
 function cresceIconeCs(){
   let icone = document.getElementById('css_icon') 
   icone.style.width='50px'
+
 }
 function diminuiIconeCs(){
 let icone = document.getElementById('css_icon') 
@@ -79,6 +99,7 @@ icone.style.width='0px'
 function cresceIconejV(){
   let icone = document.getElementById('jV_icon') 
   icone.style.width='50px'
+
 }
 function diminuiIconejV(){
 let icone = document.getElementById('jV_icon') 
@@ -88,6 +109,7 @@ icone.style.width='0px'
 function cresceIconeoC(){
   let icone = document.getElementById('oracle_icon') 
   icone.style.width='50px'
+
 }
 function diminuiIconeoC(){
 let icone = document.getElementById('oracle_icon') 
@@ -101,4 +123,5 @@ function cresceIconemy(){
 function diminuiIconemy(){
 let icone = document.getElementById('my_icon') 
 icone.style.width='0px'
+
 }

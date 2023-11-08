@@ -132,6 +132,7 @@ section{
     
 }
 #itencConhecimento p{
+    font-family: monospace;;
     color: #ffffff;
     background-color: #1a1a1a;
     border-radius: 15px 50px;
@@ -153,28 +154,40 @@ section{
 }
 
 #html_icon{
+    margin-left: 2px;
     width: 0px;
     transition: 0.5s;
+    position: absolute;
 }
 #js_icon{
+    margin-left: 2px;
     width: 0px;
     transition: 0.5s;
+    position: absolute;
 }
 #css_icon{
+    margin-left: 2px;
     width: 0px;
     transition: 0.5s;
+    position: absolute;
 }
 #jV_icon{
+    margin-left: 2px;
     width: 0px;
     transition: 0.5s;
+    position: absolute;
 }
 #oracle_icon{
+    margin-left: 2px;
     width: 0px;
     transition: 0.5s;
+    position: absolute;
 }
 #my_icon{
+    margin-left: 2px;
     width: 0px;
     transition: 0.5s;
+    position: absolute;
 }
 
 
@@ -215,6 +228,7 @@ margin: 0px;
 }
 #conteudoPerfProf{
     background-color: #d8d8d8;
+    border-color: #292929;
     margin: 25px;
     padding: 25px;
     border-radius: 25px;
@@ -246,9 +260,11 @@ font-size: 150%;
 }
 #titForm{
     font-size: 250%; 
+    
 }
 #itensForm{
     display: flex;
+    
 }
 #fotosForm img{
     width: 200px;
@@ -256,8 +272,8 @@ font-size: 150%;
 }
 #formEM{
     text-align: center;
-    color: #000000;
-    background-color: #d8d8d8;
+    color: #ffffff;
+    background-color: #222222;
     margin: 25px;
     padding: 25px;
     border-radius: 25px;
@@ -266,8 +282,9 @@ font-size: 150%;
     display: flex;
 }
 #formFatec{
-    color: #000000;
-    background-color: #d8d8d8;
+    text-align: center;
+    color: #ffffff;
+    background-color: #222222;
     margin: 25px;
     padding: 25px;
     border-radius: 25px;
